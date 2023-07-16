@@ -15,7 +15,7 @@
   --color-secondary: #418dff;
 
   /* Which font you want to use */
-  --font: "Inter", sans-serif;
+  --font: "Inter", sans-serif; 
 
   /* Color of the border around items */
   --border-color: rgba(255, 255, 255, 0.5);
