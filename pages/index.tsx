@@ -311,13 +311,15 @@ const Home: NextPage = () => {
 
                     &nbsp;
 
-                    <Link href="https://www.guild.xyz/the-great-gatsby-book-club" className={styles.mainButton} style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer">Community
-                    </Link>
+                    <button className={styles.mainButton} onClick={() => window.open("https://app.darkblock.io/platform/matic/nft/0x274e8fb1e2b0c941f64f359b7642bacdebd2def8/0", "_blank")}>
+                    Book Access
+                    </button>
 
                     &nbsp;
 
-                    <Link href="https://app.darkblock.io/platform/matic/nft/0x274e8fb1e2b0c941f64f359b7642bacdebd2def8/0" className={styles.mainButton} style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer">Book Access
-                    </Link>
+                    <button className={styles.mainButton} onClick={() => window.open("https://www.guild.xyz/the-great-gatsby-book-club", "_blank")}>
+                    Community
+                    </button>            
                       
                   </div>
                 </>
