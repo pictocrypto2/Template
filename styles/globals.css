@@ -14,6 +14,18 @@
   /* Secondary color of your brand */
   --color-secondary: #418dff;
 
+  /* 3rd Main color of your brand */
+  --color-third: #2da982;
+
+  /* 4th  color of your brand */
+  --color-fourth: #685e13a4;
+
+  /* 5th Main color of your brand */
+  --color-fifth: #9c7a16eb;
+
+  /* 6th  color of your brand */
+  --color-sixth: #7a6482a4;
+
   /* Which font you want to use */
   --font: "Inter", sans-serif; 
 
@@ -42,4 +54,14 @@ body {
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+#video {
+  object-fit: fill;
+  z-index: -5;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
 }

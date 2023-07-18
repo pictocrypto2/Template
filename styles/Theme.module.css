@@ -97,6 +97,78 @@
   opacity: 0.8;
 }
 
+.mainButton2 {
+  cursor: pointer;
+  display: inline-flex;
+  appearance: none;
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  line-height: 1.2;
+  font-weight: 600;
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-duration: 200ms;
+  height: 50px;
+  min-width: 140px;
+  font-size: 1rem;
+  background: #e5e5ea;
+  background-image: linear-gradient(
+    to left,
+    var(--color-third) 0%,
+    var(--color-fourth) 101.52%
+  );
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 9999px;
+  border-style: none;
+}
+
+.mainButton2:hover {
+  opacity: 0.8;
+}
+
+.mainButton3 {
+  cursor: pointer;
+  display: inline-flex;
+  appearance: none;
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  line-height: 1.2;
+  font-weight: 600;
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-duration: 200ms;
+  height: 50px;
+  min-width: 140px;
+  font-size: 1rem;
+  background: #e5e5ea;
+  background-image: linear-gradient(
+    to left,
+    var(--color-fifth) 0%,
+    var(--color-sixth) 101.52%
+  );
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 9999px;
+  border-style: none;
+}
+
+.mainButton3:hover {
+  opacity: 0.8;
+}
+
 .mintCompletionArea {
   display: flex;
   flex-direction: row;

@@ -208,7 +208,11 @@ const Home: NextPage = () => {
   ]);
 
   return (
+
+      
+
     <div className={styles.container}>
+
       <div className={styles.mintInfoContainer}>
         {isLoading ? (
           <p>Loading...</p>
@@ -220,6 +224,37 @@ const Home: NextPage = () => {
               {/* Description of your NFT Collection */}
               <p className={styles.description}>
                 {contractMetadata?.description}
+              </p>
+              <p>
+
+              <button className={styles.mainButton} onClick={() => window.open("https://app.darkblock.io/platform/matic/nft/0x274e8fb1e2b0c941f64f359b7642bacdebd2def8/0", "_blank")}>
+                    Kindle + Audiobook Access
+                    </button>
+
+              </p><p>
+
+                    <button className={styles.mainButton} onClick={() => window.open("https://www.guild.xyz/the-great-gatsby-book-club", "_blank")}>
+                    Community Discord Access
+                    </button> 
+
+              </p><p>
+
+                    <button className={styles.mainButton2} onClick={() => window.open("https://crypto.link.com/", "_blank")}>
+                    Get USDC (Polygon)
+                    </button>
+
+              </p><p>
+
+                    <button className={styles.mainButton2} onClick={() => window.open("https://buy.stripe.com/14kbJ50a9bnt4xiaEE", "_blank")}>
+                    Key With Credit Card
+                    </button>    
+
+              </p><p>
+
+                    <button className={styles.mainButton3} onClick={() => window.open("https://www.youtube.com/watch?v=GzLXoR77FN8", "_blank")}>
+                    New to Web3 Wallets?
+                    </button>         
+
               </p>
             </div>
 
@@ -308,18 +343,6 @@ const Home: NextPage = () => {
                       </Web3Button>
                    
                     )}
-
-                    &nbsp;
-
-                    <button className={styles.mainButton} onClick={() => window.open("https://app.darkblock.io/platform/matic/nft/0x274e8fb1e2b0c941f64f359b7642bacdebd2def8/0", "_blank")}>
-                    Book Access
-                    </button>
-
-                    &nbsp;
-
-                    <button className={styles.mainButton} onClick={() => window.open("https://www.guild.xyz/the-great-gatsby-book-club", "_blank")}>
-                    Community
-                    </button>            
                       
                   </div>
                 </>
