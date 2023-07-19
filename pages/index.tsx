@@ -235,25 +235,11 @@ const Home: NextPage = () => {
 
                     <button className={styles.mainButton} onClick={() => window.open("https://www.guild.xyz/the-great-gatsby-book-club", "_blank")}>
                     Community Discord Access
-                    </button> 
-
-              </p><p>
-
-                    <button className={styles.mainButton2} onClick={() => window.open("https://crypto.link.com/", "_blank")}>
-                    Get USDC (Polygon)
                     </button>
 
               </p><p>
 
-                    <button className={styles.mainButton2} onClick={() => window.open("https://buy.stripe.com/14kbJ50a9bnt4xiaEE", "_blank")}>
-                    Key With Credit Card
-                    </button>    
-
-              </p><p>
-
-                    <button className={styles.mainButton3} onClick={() => window.open("https://www.youtube.com/watch?v=GzLXoR77FN8", "_blank")}>
-                    New to Web3 Wallets?
-                    </button>         
+                    Key Holders get access to the kindle version of The Great Gatsby, audiobook + access to the Private Discord Book Club      
 
               </p>
             </div>
@@ -331,11 +317,11 @@ const Home: NextPage = () => {
                         isDisabled={!canClaim || buttonLoading}
                         onError={(err) => {
                           console.error(err);
-                          alert("Error claiming NFTs");
+                          alert("Error claiming keys");
                         }}
                         onSuccess={() => {
                           setQuantity(1);
-                          alert("Successfully claimed NFTs");
+                          alert("You now have your key ^_^");
                         }}
                       >
                         {buttonLoading ? "Loading..." : buttonText}
@@ -353,14 +339,7 @@ const Home: NextPage = () => {
       </div>
       {/* Powered by thirdweb */}{" "}
       
-      <a href="https://www.allibeeyoga.com/" target="_blank" rel="noopener noreferrer">
-      <img
-        src="/logo.jpg"
-        alt="Alli Logo"
-        width={235}
-        className={styles.buttonGapTop}
-      />
-      </a>
+      
     </div>
   );
 };

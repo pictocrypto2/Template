@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function ThirdwebGuideFooter() {
-  const url = "https://www.instagram.com/allibeeyoga";
+  const url = "https://thepublishingconsultants.com/";
   return (
     <>
       <div
@@ -13,7 +13,7 @@ export default function ThirdwebGuideFooter() {
           width: 150,
           border: "1px solid #eaeaea",
           transform: "rotate(45deg)",
-          backgroundColor: " #262935",
+          backgroundColor: " #808080",
           cursor: "pointer",
         }}
         role="button"
