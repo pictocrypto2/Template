@@ -11,15 +11,15 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThirdwebProvider activeChain={activeChain}>
       <Head>
-        <title>The Great Gatsby NFT</title>
+        <title>The Great Gatsby Book Club</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Alli Bee's NFT Offering"
+          content="The Great Gatsby Book Club"
         />
         <meta
           name="keywords"
-          content="Yoga, NFT"
+          content="Books, NFT"
         />
       </Head>
       <Component {...pageProps} />
